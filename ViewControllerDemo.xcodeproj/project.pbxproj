@@ -410,6 +410,7 @@
 				92DD0EDC197A0DEC002DD5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92DD0EDD197A0DEC002DD5C0 /* Build configuration list for PBXNativeTarget "ViewControllerDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +419,7 @@
 				92DD0EDF197A0DEC002DD5C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
