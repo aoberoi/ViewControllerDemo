@@ -18,6 +18,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     UISplitViewController *splitViewController = (UISplitViewController *)self.window.rootViewController;
+    splitViewController.preferredDisplayMode = UISplitViewControllerDisplayModeAllVisible;
     UINavigationController *masterNavigationViewController = [splitViewController.viewControllers firstObject];
     splitViewController.delegate = (id)masterNavigationViewController.topViewController;
     return YES;

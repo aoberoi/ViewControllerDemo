@@ -101,6 +101,10 @@
 
 - (BOOL)splitViewController:(UISplitViewController *)splitViewController collapseSecondaryViewController:(UIViewController *)secondaryViewController ontoPrimaryViewController:(UIViewController *)primaryViewController
 {
+    DetailViewController *detailViewController = (DetailViewController *)((UINavigationController *)secondaryViewController).topViewController;
+    if (detailViewController.detailItem) {
+        return NO;
+    }
     return YES;
 }
 
